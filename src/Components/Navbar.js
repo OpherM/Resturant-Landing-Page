@@ -16,7 +16,6 @@ import InfoIcon from '@mui/icons-material/Info';
 import CommentRoundedIcon from '@mui/icons-material/CommentRounded';
 import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
-import { Anchor } from '@mui/icons-material';
 
 const Navbar = () => {
 
@@ -49,11 +48,11 @@ const Navbar = () => {
             <img src={Logo} alt="" />
         </div>
         <div className='navbar-links-container'>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Testimonial</a>
-            <a href="">Contact</a>
-            <a href="">
+            <a href="Home.js">Home</a>
+            <a href="Home.js">About</a>
+            <a href="Home.js">Testimonial</a>
+            <a href="Home.js">Contact</a>
+            <a href="Home.js">
                 <BsCart2 className='navbar-cart-icon' />
             </a>
             <button className='primary-button'>
